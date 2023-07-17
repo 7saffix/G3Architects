@@ -171,6 +171,16 @@ main{
     width: 12%;
     margin:40px;
 }
+
+/* footer section */
+footer{
+    padding: 20px;
+    border-radius: 5px;
+    background: #FFF4E7;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
 /* responsive media query  */
 /* responsive for mobile */
 @media screen and (max-width:576px){
@@ -219,6 +229,9 @@ main{
     .sponsor-img img{
         width: 20%;
         margin:10px;
+    }
+    footer p{
+        font-size: 12px;
     }
 }
 
