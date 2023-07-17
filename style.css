@@ -163,6 +163,14 @@ main{
     padding: 20px 10px;
     margin:30px;
 }
+/* sponsor section  */
+.sponsor{
+    text-align: center;
+}
+.sponsor-img img{
+    width: 12%;
+    margin:40px;
+}
 /* responsive media query  */
 /* responsive for mobile */
 @media screen and (max-width:576px){
@@ -207,6 +215,10 @@ main{
     }
     .milestone .facts-milestone-card{
         margin: 5px;
+    }
+    .sponsor-img img{
+        width: 20%;
+        margin:10px;
     }
 }
 
@@ -255,6 +267,10 @@ main{
     .milestone .facts-milestone-card{
         margin: 10px;
     }
+    .sponsor-img img{
+        width: 15%;
+        margin:10px;
+    }
 }
 
 @media screen and (min-width:1001px) and (max-width:1270px){
@@ -264,5 +280,9 @@ main{
     }
     .feature-btn{
         transform:translate(-8%,-50%);
+    }
+    .sponsor-img img{
+        width: 15%;
+        margin:20px;
     }
 }
