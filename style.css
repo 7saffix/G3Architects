@@ -150,6 +150,19 @@ main{
     transform:translate(-20%,-50%);
 }
 
+/* facts style  */
+.milestone{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:  20px;
+}
+.milestone .facts-milestone-card{
+    border: 2px solid #FF900E;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px 10px;
+    margin:30px;
+}
 /* responsive media query  */
 /* responsive for mobile */
 @media screen and (max-width:576px){
@@ -184,6 +197,16 @@ main{
     }
     .feature-btn{
         transform:translate(0,-50%);
+    }
+    .facts .section-details{
+        margin: 10px;
+    }
+    .milestone{
+        grid-template-columns: repeat(2,1fr);
+        gap:  10px;
+    }
+    .milestone .facts-milestone-card{
+        margin: 5px;
     }
 }
 
@@ -221,6 +244,16 @@ main{
     }
     .feature-btn{
         transform:translate(0,-50%);
+    }
+    .facts .section-details{
+        margin: 10px;
+    }
+    .milestone{
+        grid-template-columns: repeat(4,1fr);
+        gap:  20px;
+    }
+    .milestone .facts-milestone-card{
+        margin: 10px;
     }
 }
 
